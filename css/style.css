@@ -1,0 +1,146 @@
+body{
+  text-align: center;
+  font-family: arial;
+  background-color: #2C313E;
+  color: #CDB19A;
+}
+
+.search-icon{
+  margin: 25px;
+  font-size: 5em;
+  color: #FFD1AA;
+}
+
+.rand-generator{
+  text-align: center;
+  margin-top: 10px;
+}
+
+a.button{
+		background: #6B7489;
+		border-radius: 15px;
+		padding: 10px 10px;
+		display: block;
+		font-family: arial;
+		font-weight: bold;
+		color: #E4D3C4;
+		text-decoration: none;
+		border:1px solid #a7a7a7;
+		width: 145px;
+		margin:0px auto;
+		/*margin-top: 5px; 
+		box-shadow: 0px 2px 1px #868C99 inset, 0px -2px 8px #868C99, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1); */
+		-webkit-transition:box-shadow 0.2s;
+	}
+	a.button i{
+		float: right;
+		margin-top: 2px;
+	}
+	a.button:hover{
+		box-shadow: 2px 2px 10px #FFF3B8, -2px -2px 8px #FFF3B8;
+    color: #F3E087;
+	}
+	a.button:active{
+		box-shadow: 2px 2px 10px #FFF3B8 inset, -2px -2px 8px #FFF3B8 inset;
+	}
+
+.submit{
+  margin: 30px;
+  width: 35%;
+  height: 2em;
+  font-size: 20px;
+  border-radius: 15px;
+  display: none;
+  outline: none;
+  background-color: #4d4d4d;
+  color: #D4C26A;
+  border-color: #918A66 #BCB490 #BCB490 #918A66;
+}
+
+.submit:hover{
+  box-shadow: 2px 2px 10px #FFF3B8, -2px -2px 8px #FFF3B8;
+}
+
+input::-webkit-input-placeholder {
+color: #7A724A;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #7A724A;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #7A724A;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #7A724A;  
+}
+
+
+
+.search-bar{
+  border: none;
+  width: 95%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #2C313E;
+  outline: none;
+  height: 2em;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.search-border{
+  border-style: solid;
+  border-color: #918A66;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  display: none;
+  border-radius: 15px;
+  color: #D4C26A;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input[type=search]:focus {
+	background-color: #2C313E;
+  color: #D4C26A;
+	border-color: #66CC75;
+  outline: none;
+}
+
+.article{
+  text-align: left;
+  border-style: solid;
+  margin: 5px;
+  border-color: #636B7E;
+}
+
+
+
+a:hover {
+  text-decoration: none;
+  
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.content{
+  margin: 5px 10px 5px 10px;
+  color: #CDB19A;
+}
+
+.article:hover{
+  background-color: #121D35;
+}
+
+a:hover .content{
+  color: #F3E087;
+}
